@@ -164,6 +164,7 @@ WantedBy=multi-user.target
 sudo systemctl enable --now lighthouse.service
 sudo systemctl restart lighthouse.service
 sudo journalctl -f -u lighthouse.service
+```
 
 ## Run Taiko node
 
